@@ -62,6 +62,6 @@ require(["main"], function(KMap){
   };
 
   // fetch some graph data (multiple fetches since demo_kmap is not stored in repo yet
-  $.getJSON("../data/khan_formatted.json", handleDataFun);
+  $.getJSON("../data/data.json", handleDataFun);
 
 });
